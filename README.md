@@ -10,28 +10,6 @@
 -  Manage bookings — view and cancel existing reservations
 -  Responsive design for mobile and desktop
 
-
-
-## Project Structure
-
-```
-ev-charging-app/
-├── backend/
-│   ├── server.js         # Express API server
-│   └── package.json
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx        # Main app component
-│   │   ├── App.css        # Styles
-│   │   ├── main.jsx       # Entry point
-│   │   └── services/
-│   │       └── api.js     # API client
-│   ├── index.html
-│   ├── vite.config.js
-│   └── package.json
-└── README.md
-```
-
 ## Running Locally
 
 ### Backend
