@@ -1,4 +1,6 @@
-const API_URL = "http://localhost:5000/api";
+const API_URL = import.meta.env.DEV 
+? "http://localhost:5000/api"
+: "https://ev-charging-backend.onrender.com/api";
 
 async function request(endpoint, options = {}) {
   const response = await fetch(`${API_URL}${endpoint}`, {
